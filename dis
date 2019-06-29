@@ -25,16 +25,14 @@
             },
             "mainServer": true,
             "autoconnect": true,
-            "modules": [
-   "modules": [
-                {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2838",
+            "modules": [ {
+                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2797",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 32999,
+                        "size": 4937218,
                         "MD5": "5320593704af58b3906e7106d27e41c8",
-                        "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-universal.jar"
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2797-universal.jar"
                     },
                     "subModules": [
                         {
@@ -238,4 +236,7 @@
                             }
                         }
                     ]
-]]}
+}
+                    ]}
+                ]
+                }
