@@ -32,7 +32,7 @@
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": "4.87 MB",
+                        "size": 32999,
                         "MD5": "5320593704af58b3906e7106d27e41c8",
                         "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-universal.jar"
                     },
