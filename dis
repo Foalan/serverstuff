@@ -241,7 +241,18 @@
                         }
                         
                     ]
+                      },
+                {
+                    "id": "com.ChickenASM:ChickenASM-1.12-1.0.2.7",
+                    "name": "ChickenASM",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": "54.3 KB",
+                         "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
+                        "url": "https://github.com/Foalan/serverstuff/blob/master/modsforpeople/1.12.2/ChickenASM-1.12-1.0.2.7.jar?raw=true"
+                    }
 }
+
             ]
         }
     ]
