@@ -36,7 +36,7 @@
                     },
                                         "required": {
                         "value": true
-},
+                    },
                     "subModules": [
                         {
                             "id": "net.minecraft:launchwrapper:1.12",
@@ -236,12 +236,10 @@
                                 "size": 15098,
                                 "MD5": "6eb9e61097bee3103a2fdc42746b76a4",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
-                    
-                              }
+                            }
                         }
-                        
                     ]
-                      },
+                },
                 {
                     "id": "com.ChickenASM:ChickenASM-1.12-1.0.2.7",
                     "name": "ChickenASM",
@@ -250,26 +248,28 @@
                         "size": 54961,
                          "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
                         "url": "https://github.com/Foalan/serverstuff/blob/master/modsforpeople/1.12.2/ChickenASM-1.12-1.0.2.7.jar?raw=true"
-                    },
-                                    {
+                }},
+                {
                     "id": "com.CD4017BE_lib-1.12.2-6.3.0.jar",
                     "name": "CD4017BE_lib",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 54961,
-                         "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
+                        "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
                         "url": "https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CD4017BE_lib-1.12.2-6.3.0.jar?raw=true"
-                    },
-                                    {
+                }},
+                
+                {
                     "id": "CTM-MC1.12.2-0.3.3.22.jar",
                     "name": "CTM-MC",
                     "type": "ForgeMod",
                     "artifact": {
                         "size": 54961,
-                         "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
+                        "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
                         "url": "https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CTM-MC1.12.2-0.3.3.22.jar?raw=true"
-                    },
+                }},
                 {
+                
                     "id": "com.Baubles:Baubles-1.12-1.5.2",
                     "name": "Baubles",
                     "type": "ForgeMod",
@@ -277,10 +277,9 @@
                         "size": 54961,
                          "MD5": "e5c38ef42e9cc4b957122207dcf95f4f",
                         "url": "https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Baubles-1.12-1.5.2.jar?raw=true"
-                    }                    
-
-
-            ]
-        }
-    ]
+                }
+                }
+                   
+        ]}]
 }
+       
