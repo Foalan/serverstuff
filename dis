@@ -1224,7 +1224,8 @@
        "name":"vr",
        "type":"ForgeMod",
        "required": {
-       "value": false
+       "value": false ,
+       "dis": false 
        },
        "artifact":{
        "url":"https://owncloud.techjargaming.com/index.php/s/RsnyWmdN8OeJEI4/download?path=%2F&files=VivecraftForgeExtensions-1.12.2-0.2.4.12.jar"
