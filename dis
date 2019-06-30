@@ -682,6 +682,10 @@
        "id":"InventoryTweaks:1.64:dev.146.jar",
        "name":"InventoryTweaks",
        "type":"ForgeMod",
+       "required": {
+       "value": false
+       "def": true
+       },
        "artifact":{
        "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/InventoryTweaks-1.64+dev.146.jar?raw=true"
        
@@ -853,6 +857,7 @@
        "type":"ForgeMod",
        "required": {
        "value": false
+       "def": true
        },
        "artifact":{
        "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OptiFine_1.12.2_HD_U_E3.jar?raw=true"
@@ -1070,6 +1075,10 @@
        "id":"journeymap:1.12.2:5.5.4.jar",
        "name":"journeymap",
        "type":"ForgeMod",
+       "required": {
+       "value": false
+       "def": true
+       },
        "artifact":{
        "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/journeymap-1.12.2-5.5.4.jar?raw=true"
        
@@ -1216,6 +1225,7 @@
        "type":"ForgeMod",
        "required": {
        "value": false
+       "def": false
        },
        "artifact":{
        "url":"https://owncloud.techjargaming.com/index.php/s/RsnyWmdN8OeJEI4/download?path=%2F&files=VivecraftForgeExtensions-1.12.2-0.2.4.12.jar"
@@ -1232,6 +1242,7 @@
        "type":"ForgeMod",
        "required": {
        "value": false
+       "def": false
        },
        "artifact":{
        "url":"https://www.dropbox.com/s/yuqs2naj4y3lba5/controllable-0.3.1-mc1.12.2.jar?dl=1"
