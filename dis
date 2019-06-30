@@ -1000,10 +1000,286 @@
     }
     },   {
     "id":"cfm:6.2.0:mc1.12.2.jar",
-    "name":"ProjectRedmechanical",
+    "name":"cfm",
     "type":"ForgeMod",
     "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalFoundation-1.12.2-2.6.2.26-universal.jar?raw=true"
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/cfm-6.2.0-mc1.12.2.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+      {
+    "id":"gravestone:1.10.2:jar",
+    "name":"gravestones",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/gravestone-1.10.2.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"hooked:1.0.3:jar",
+    "name":"hooked",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/hooked-1.0.3.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"jehc:1.12.2:1.6.3",
+    "name":"jehc",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jehc-1.12.2-1.6.3.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"jei:1.12.2:4.15.0.268.jar",
+    "name":"jei",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jei_1.12.2-4.15.0.268.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"journeymap:1.12.2:5.5.4.jar",
+    "name":"journeymap",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/journeymap-1.12.2-5.5.4.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"librarianlib:1.12.2:4.15.jar",
+    "name":"librarianlib",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/librarianlib-1.12.2-4.15.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"malisiscore:1.12.2:6.5.1.jar",
+    "name":"malisicore",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/malisiscore-1.12.2-6.5.1.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"malisisdoors:1.12.2:7.3.0.jar",
+    "name":"malisidoors",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/malisisdoors-1.12.2-7.3.0.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"mcjtylib:1.12:3.1.1.jar",
+    "name":"mcjtylib",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/mcjtylib-1.12-3.1.1.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"mp3spi:1.9.5:1.jar",
+    "name":"mp3sp",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/mp3spi-1.9.5-1.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+     {
+    "id":"railcraft:12.0:0.jar",
+    "name":"railcraft",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/railcraft-12.0.0.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+       {
+    "id":"rftools:1.12:7.61.jar",
+    "name":"rftools",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftools-1.12-7.61.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+       {
+    "id":"rftoolsctrl:1.12:1.9.3.jar",
+    "name":"rftc",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftoolsctrl-1.12-1.9.3.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+           {
+    "id":"simplefluidtanks:1.12.2:1.7.1.1.jar",
+    "name":"simplefluidtanks",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftoolsctrl-1.12-1.9.3.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+           {
+    "id":"twilightforest:1.12.2:3.8.689-universal.jar",
+    "name":"twilight",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/twilightforest-1.12.2-3.8.689-universal.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+        },
+           {
+    "id":"vr:thing:10.1",
+    "name":"vr",
+    "type":"ForgeMod",
+    "required" : "false",
+    "artifact":{
+    "url":"https://owncloud.techjargaming.com/index.php/s/RsnyWmdN8OeJEI4/download?path=%2F&files=VivecraftForgeExtensions-1.12.2-0.2.4.12.jar"
+    
+    
+    
+    
+    
+    }
+    },
+               {
+    "id":"controler:thing:10.1",
+    "name":"controler",
+    "type":"ForgeMod",
+    "required" : "false",
+    "artifact":{
+    "url":"https://www.dropbox.com/s/yuqs2naj4y3lba5/controllable-0.3.1-mc1.12.2.jar?dl=1"
+    
+    
+    
+    
+    
+    }
+    },
+           {
+    "id":"vorbisspi:1.0.3:1.jar",
+    "name":"vorfis",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/vorbisspi-1.0.3-1.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+               {
+    "id":"vehiclemod:1.0.3:1.jar",
+    "name":"vehiclemod",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://www.dropbox.com/s/po9k09rmmvx9hov/vehicle-0.41.0-mc1.12.2.jar?dl=1"
+    
+    
+    
+    
+    
+    }
+    },
+               {
+    "id":"Obfuscate:de:1.2",
+    "name":"Obfuscate",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/vorbisspi-1.0.3-1.jar?raw=true"
+    
+    
+    
+    
+    
+    }
+    },
+               {
+    "id":"laptop:1.0.3:1.jar",
+    "name":"laptop",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://www.dropbox.com/s/8ykqctxt5bv2kyx/cdm-0.4.1-mc1.12.2.jar?dl=1"
     
     
     
@@ -1012,6 +1288,46 @@
     }
     }
     
+                  {
+    "id":"fureniksroad:1.0.3:1.jar",
+    "name":"roads",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://www.curseforge.com/minecraft/mc-mods/furenikusroads/download/2701842/file"
+    
+    
+    
+    
+    
+    }
+    }
+    
+                  {
+    "id":"NeverEnoughCurrency:1.0.3:1.jar",
+    "name":"Never Enough Currency",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://www.curseforge.com/minecraft/mc-mods/never-enough-currency/download/2508532/file"
+    
+    
+    
+    
+    
+    }
+    }
+                  {
+    "id":"Elevators:1.0.3:1.jar",
+    "name":"lElevators",
+    "type":"ForgeMod",
+    "artifact":{
+    "url":"https://www.curseforge.com/minecraft/mc-mods/thuts-elevators/download/2712805/file"
+    
+    
+    
+    
+    
+    }
+    }
     
     
     
