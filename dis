@@ -683,7 +683,7 @@
        "name":"InventoryTweaks",
        "type":"ForgeMod",
        "required": {
-       "value": false
+       "value": false,
        "def": true
        },
        "artifact":{
@@ -856,7 +856,7 @@
        "name":"OptiFine",
        "type":"ForgeMod",
        "required": {
-       "value": false
+       "value": false,
        "def": true
        },
        "artifact":{
@@ -1076,7 +1076,7 @@
        "name":"journeymap",
        "type":"ForgeMod",
        "required": {
-       "value": false
+       "value": false,
        "def": true
        },
        "artifact":{
@@ -1224,7 +1224,7 @@
        "name":"vr",
        "type":"ForgeMod",
        "required": {
-       "value": false
+       "value": false,
        "def": false
        },
        "artifact":{
@@ -1241,7 +1241,7 @@
        "name":"controler",
        "type":"ForgeMod",
        "required": {
-       "value": false
+       "value": false,
        "def": false
        },
        "artifact":{
