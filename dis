@@ -1211,7 +1211,9 @@
        "id":"vr:thing:10.1",
        "name":"vr",
        "type":"ForgeMod",
-       "required" : "false",
+                      "required": {
+                        "value": false
+},
        "artifact":{
        "url":"https://owncloud.techjargaming.com/index.php/s/RsnyWmdN8OeJEI4/download?path=%2F&files=VivecraftForgeExtensions-1.12.2-0.2.4.12.jar"
        
@@ -1225,7 +1227,9 @@
        "id":"controler:thing:10.1",
        "name":"controler",
        "type":"ForgeMod",
-       "required" : "false",
+                           "required": {
+                        "value": false
+},
        "artifact":{
        "url":"https://www.dropbox.com/s/yuqs2naj4y3lba5/controllable-0.3.1-mc1.12.2.jar?dl=1"
        
