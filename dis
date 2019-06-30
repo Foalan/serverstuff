@@ -1345,6 +1345,48 @@
        
        
        }
+       } , 
+       
+                     {
+       "id":"tsla:1.0.3:1.jar",
+       "name":"tesla",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.curseforge.com/minecraft/mc-mods/tesla/download/2487959/file"
+       
+       
+       
+       
+       
+       }
+       },
+       
+                     {
+       "id":"ZeroCore:1.0.3:1.jar",
+       "name":"ZeroCore",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.curseforge.com/minecraft/mc-mods/zerocore/download/2670570/file"
+       
+       
+       
+       
+       
+       }
+       },
+       
+                     {
+       "id":"ExtremeReactors:1212:1212",
+       "name":"ExtremeReactors",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.curseforge.com/minecraft/mc-mods/extreme-reactors/download/2722271/file"
+       
+       
+       
+       
+       
+       }
        }
        
        
