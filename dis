@@ -1,1350 +1,1351 @@
 {
-    "version":"1.0.1",
-    "discord":{
-    "clientId":"385581240906022916",
-    "smallImageText":"MetroCraft",
-    "smallImageKey":"seal-circle"
-    },
-    "java":{
-    "oracle":"http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-    },
-    "rss":"https://westeroscraft.com/articles/index.rss",
-    "servers":[
-    {
-    "id":"MetroCraft-1.12.2",
-    "name":"MetroCraftServer",
-    "description":"MainMetroCraftserver.Connecttoentertheserver.",
-    "icon":"https://seeklogo.com/images/M/m-design-logo-09A5D82F03-seeklogo.com.png",
-    "version":"3.8.0",
-    "address":"73.153.28.229",
-    "minecraftVersion":"1.12.2",
-    "discord":{
-    "shortId":"594507123250167818",
-    "largeImageText":"WesterosCraftServer",
-    "largeImageKey":"https://seeklogo.com/images/M/m-design-logo-09A5D82F03-seeklogo.com.png"
-    },
-    "mainServer":true,
-    "autoconnect":true,
-    "modules":[{
-    "id":"net.minecraftforge:forge:1.12.2-14.23.5.2838",
-    "name":"MinecraftForge",
-    "type":"ForgeHosted",
-    "artifact":{
-    "size":4937218,
-    "MD5":"5320593704af58b3906e7106d27e41c8",
-    "url":"https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-universal.jar"
-    },
-    "required":{
-    "value":true
-    },
-    "subModules":[
-    {
-    "id":"net.minecraft:launchwrapper:1.12",
-    "name":"Mojang(LaunchWrapper)",
-    "type":"Library",
-    "artifact":{
-    "size":32999,
-    "MD5":"934b2d91c7c5be4a49577c9e6b40e8da",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
-    }
-    },
-    {
-    "id":"org.ow2.asm:asm-all:5.2",
-    "name":"Mojang(ASM)",
-    "type":"Library",
-    "artifact":{
-    "size":247787,
-    "MD5":"f5ad16c7f0338b541978b0430d51dc83",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/asm-all-5.2.jar"
-    }
-    },
-    {
-    "id":"jline:jline:2.13",
-    "name":"Mojang(jline)",
-    "type":"Library",
-    "artifact":{
-    "size":248566,
-    "MD5":"f251ba666cccb260ff7215b2cbeee8d4",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jline-2.13.jar"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-library:2.11.1@jar.pack.xz",
-    "name":"MinecraftForge(scala-library)",
-    "type":"Library",
-    "artifact":{
-    "size":1474672,
-    "MD5":"379c15c4f724421c6d5d7aecedaf87a6",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
-    "name":"MinecraftForge(scala-compiler)",
-    "type":"Library",
-    "artifact":{
-    "size":3076920,
-    "MD5":"7d89e952f2d5c74577310cd2c28e3f20",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
-    "name":"MinecraftForge(scala-actors-migration)",
-    "type":"Library",
-    "artifact":{
-    "size":21324,
-    "MD5":"04e3428b2600ace33c7ae2bf1f6c0a4c",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
-    "name":"MinecraftForge(scala-continuations-library)",
-    "type":"Library",
-    "artifact":{
-    "size":7956,
-    "MD5":"ed9b1d27aba8ac4090a3749c4dfc895a",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
-    "name":"MinecraftForge(scala-continuations-plugin)",
-    "type":"Library",
-    "artifact":{
-    "size":46140,
-    "MD5":"a8232db22a72a981de6b1399eb86dff7",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
-    "name":"MinecraftForge(scala-parser-combinators)",
-    "type":"Library",
-    "artifact":{
-    "size":85568,
-    "MD5":"2e50a7df17680daadacca69f07f8a16d",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
-    "name":"MinecraftForge(scala-reflect)",
-    "type":"Library",
-    "artifact":{
-    "size":1070312,
-    "MD5":"84e5dc81c10e2bd74c579c9d0332fdd9",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-swing_2.11:1.0.1",
-    "name":"MinecraftForge(scala-swing)",
-    "type":"Library",
-    "artifact":{
-    "size":736795,
-    "MD5":"1d360289e697022a3f57abaad344b28f",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
-    }
-    },
-    {
-    "id":"org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
-    "name":"MinecraftForge(scala-xml)",
-    "type":"Library",
-    "artifact":{
-    "size":217812,
-    "MD5":"cc891b094a4c32dedc56bfefe9b072ff",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
-    }
-    },
-    {
-    "id":"com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
-    "name":"MinecraftForge(akka-actor)",
-    "type":"Library",
-    "artifact":{
-    "size":746612,
-    "MD5":"25cb22c3078e9fb3f7a861c912924862",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
-    }
-    },
-    {
-    "id":"com.typesafe:config:1.2.1@jar.pack.xz",
-    "name":"MinecraftForge(typesafe-config)",
-    "type":"Library",
-    "artifact":{
-    "size":56636,
-    "MD5":"10ec4ccabc4e68aac9cf87165ead5d7d",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
-    }
-    },
-    {
-    "id":"lzma:lzma:0.0.1",
-    "name":"Mojang(LZMA)",
-    "type":"Library",
-    "artifact":{
-    "size":5762,
-    "MD5":"a3e3c3186e41c4a1a3027ba2bb23cdc6",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
-    }
-    },
-    {
-    "id":"net.sf.trove4j:trove4j:3.0.3",
-    "name":"Trove4J",
-    "type":"Library",
-    "artifact":{
-    "size":2523218,
-    "MD5":"8fc4d4e0129244f9fd39650c5f30feb2",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
-    }
-    },
-    {
-    "id":"java3d:vecmath:1.5.2",
-    "name":"Vecmath",
-    "type":"Library",
-    "artifact":{
-    "size":318956,
-    "MD5":"e5d2b7f46c4800a32f62ce75676a5710",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
-    }
-    },
-    {
-    "id":"net.sf.jopt-simple:jopt-simple:5.0.3",
-    "name":"Jopt-simple",
-    "type":"Library",
-    "artifact":{
-    "size":78175,
-    "MD5":"0a5ec84e23df9d7cfb4063bc55f2744c",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jopt-simple-5.0.3.jar"
-    }
-    },
-    {
-    "id":"org.apache.maven:maven-artifact:3.5.3",
-    "name":"maven-artifact",
-    "type":"Library",
-    "artifact":{
-    "size":54961,
-    "MD5":"7741ebf29690ee7d9dde9cf4376347fc",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
-    }
-    },
-    {
-    "id":"net.minecraftforge:MercuriusUpdater:1.12.2",
-    "name":"MercuriusUpdater",
-    "type":"Library",
-    "artifact":{
-    "size":15098,
-    "MD5":"6eb9e61097bee3103a2fdc42746b76a4",
-    "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
-    }
-    }
-    ]
-    },
-    {
-    "id":"com.ChickenASM:ChickenASM:1.12-1.0.2.7",
-    "name":"ChickenASM",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/1.12.2/ChickenASM-1.12-1.0.2.7.jar?raw=true"
-    }},
-    {
-    "id":"com.CD4017BE:CD4017Blib:1.12.2-6.3.0",
-    "name":"CD4017BE_lib",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CD4017BE_lib-1.12.2-6.3.0.jar?raw=true"
-    }},
-    
-    {
-    "id":"com.CTM-MC:CTM-MC:1.12.2-0.3.3.22",
-    "name":"CTM-MC",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CTM-MC1.12.2-0.3.3.22.jar?raw=true"
-    }},
-    {
-    
-    "id":"com.Baubles:Baubles:1.12-1.5.2",
-    "name":"Baubles",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Baubles-1.12-1.5.2.jar?raw=true"
-    }
-    },
-    {
-    
-    "id":"com.CarryOn:MC1.12.2:v1.12.1.jar",
-    "name":"CarryOn",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CarryOn+MC1.12.2+v1.12.1.jar?raw=true"
-    }
-    },
-    {
-    
-    "id":"com.CoFHCore:1.12.2-4.6.2.25:universal.jar",
-    "name":"CoFHCore",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CoFHCore-1.12.2-4.6.2.25-universal.jar?raw=true"
-    }
-    },
-    {
-    
-    "id":"com.CoFHWorld:1.12.2-1.3.0.6:universal.jar",
-    "name":"CoFHWorld",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CoFHWorld-1.12.2-1.3.0.6-universal.jar?raw=true"
-    }
-    },
-    {
-    
-    "id":"com.CodeChickenLib:1.12.2-3.2.2.353:universal.jar",
-    "name":"CodeChickenLib",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CodeChickenLib-1.12.2-3.2.2.353-universal.jar?raw=true"
-    }
-    },
-    {
-    
-    "id":"com.Computronics:1.12.2:1.6.6.jar",
-    "name":"Computronics",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Computronics-1.12.2-1.6.6.jar?raw=true"
-    }
-    },
-    {
-    "id":"com.CookingForBlockheads:1.12.2:6.4.69.jar",
-    "name":"CookingForBlockheads_4jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CookingForBlockheads_1.12.2-6.4.69.jar?raw=true"
-    }},{
-    "id":"com.CustomMo:Spawner:3.11.4.jar.zip",
-    "name":"CustomMobSpawner4jarzip",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CustomMobSpawner-3.11.4.jar.zip?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.DrZharksMoCreaturesMod:12:0.5.jar.zip",
-    "name":"DrZharksMoCreaturesModjarzip",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/DrZharks%20MoCreatures%20Mod-12.0.5.jar.zip"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:BiblioCraft:[v2.4.5][MC1.12.2].jar",
-    "name":"ElijahWilliamsBiblioCraft[v4][MC]jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20BiblioCraft%5Bv2.4.5%5D%5BMC1.12.2%5D.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:BiomesOPlenty:1.12.2-7.0.1.2419-universal.jar",
-    "name":"ElijahWilliamsBiomesOPlenty4universaljar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20BiomesOPlenty-1.12.2-7.0.1.2419-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:Cavern:1.12.2-v2.1.9.jar",
-    "name":"ElijahWilliamsCavern_vjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Cavern_1.12.2-v2.1.9.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:Chisel:MC1.12.2-0.2.1.35.jar",
-    "name":"ElijahWilliamsChiselMCjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Chisel-MC1.12.2-0.2.1.35.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijaWilliams:CraftableHorseArmour:1.3.0-1.12.jar",
-    "name":"ElijahWilliamsCraftableHorseArmourjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20CraftableHorseArmour-1.3.0-1.12.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:Galacticraft:Planets:1.12.2-4.0.2.210.jar",
-    "name":"ElijahWilliamsGalacticraftPlanets4jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Galacticraft-Planets-1.12.2-4.0.2.210.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:GalacticraftCore:1.12.2-4.0.2.210.jar",
-    "name":"ElijahWilliamsGalacticraftCore4jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20GalacticraftCore-1.12.2-4.0.2.210.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:Horse-Carts-Mod:1.12.2.jar",
-    "name":"ElijahWilliamsHorseCartsModjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Horse-Carts-Mod-1.12.2.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijaWilliams:ImmersiveEngineering:0.12-89.jar",
-    "name":"ElijahWilliamsImmersiveEngineeringjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20ImmersiveEngineering-0.12-89.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:IndustrialWires:1.7-36.jar",
-    "name":"ElijahWilliamsIndustrialWiresjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20IndustrialWires-1.7-36.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:OpenGlider:1.12.1-1.1.0.jar",
-    "name":"ElijahWilliamsOpenGliderjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20OpenGlider-1.12.1-1.1.0.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:RoguelikeDungeons:1.12.2-1.8.0.jar",
-    "name":"ElijahWilliamsRoguelikeDungeonsjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20RoguelikeDungeons-1.12.2-1.8.0.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:SimplyJetpacks2:1.12.2-2.2.11.64.jar",
-    "name":"ElijahWilliamsSimplyJetpacks4jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20SimplyJetpacks2-1.12.2-2.2.11.64.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams-backpacks:1.12.2-:3.5.5.jar",
-    "name":"ElijahWilliamsbackpacksjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20backpacks+1.12.2+-+3.5.5.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:conarm:1.12.2-1.2.3.jar",
-    "name":"ElijahWilliamsconarmjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20conarm-1.12.2-1.2.3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliam:sngineers:doors-1.12.2-0.8.0.jar",
-    "name":"ElijahWilliamsengineers_doorsjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20engineers_doors-1.12.2-0.8.0.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:immersivepetroleum:1.12.2-1.1.9.jar",
-    "name":"ElijahWilliamsimmersivepetroleumjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20immersivepetroleum-1.12.2-1.1.9.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:immersivetech:1.12-1.3.10.jar",
-    "name":"ElijahWilliamsimmersivetechjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20immersivetech-1.12-1.3.10.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:industrialcraft:2-2.8.111-ex112.jar",
-    "name":"ElijahWilliamsindustrialcraftexjar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20industrialcraft-2-2.8.111-ex112.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:ironchest:1.12.2-7.0.59.842.jar",
-    "name":"ElijahWilliamsironchest4jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20ironchest-1.12.2-7.0.59.842.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },{
-    "id":"com.ElijahWilliams:refinedstorage:1.6.14.jar",
-    "name":"ElijahWilliams-refinedstorage",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20refinedstorage-1.6.14.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-    {
-    "id":"EnderStorage:1.12.2:2.4.2.126-universal.jar",
-    "name":"EnderStorage",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/EnderStorage-1.12.2-2.4.2.126-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"FTBLib:5.4:1.94.jar",
-    "name":"FTBLib",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/FTBLib-5.4.1.94.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-    
-         {
-    "id":"FTB:Utilities:.4.0.92.jar",
-    "name":"FTBUtilities",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/FTBUtilities-5.4.0.92.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-             {
-    "id":"ForgeMultipart:1.12.2:2.6.1.81-universal.jar",
-    "name":"ForgeMultipart",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ForgeMultipart-1.12.2-2.6.1.81-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
+       "version":"1.0.1",
+       "discord":{
+       "clientId":"385581240906022916",
+       "smallImageText":"MetroCraft",
+       "smallImageKey":"seal-circle"
+       },
+       "java":{
+       "oracle":"http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+       },
+       "rss":"https://westeroscraft.com/articles/index.rss",
+       "servers":[
+       {
+       "id":"MetroCraft-1.12.2",
+       "name":"MetroCraftServer",
+       "description":"MainMetroCraftserver.Connecttoentertheserver.",
+       "icon":"https://seeklogo.com/images/M/m-design-logo-09A5D82F03-seeklogo.com.png",
+       "version":"3.8.0",
+       "address":"73.153.28.229",
+       "minecraftVersion":"1.12.2",
+       "discord":{
+       "shortId":"594507123250167818",
+       "largeImageText":"WesterosCraftServer",
+       "largeImageKey":"https://seeklogo.com/images/M/m-design-logo-09A5D82F03-seeklogo.com.png"
+       },
+       "mainServer":true,
+       "autoconnect":true,
+       "modules":[{
+       "id":"net.minecraftforge:forge:1.12.2-14.23.5.2838",
+       "name":"MinecraftForge",
+       "type":"ForgeHosted",
+       "artifact":{
+       "size":4937218,
+       "MD5":"5320593704af58b3906e7106d27e41c8",
+       "url":"https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-universal.jar"
+       },
+       "required":{
+       "value":true
+       },
+       "subModules":[
+       {
+       "id":"net.minecraft:launchwrapper:1.12",
+       "name":"Mojang(LaunchWrapper)",
+       "type":"Library",
+       "artifact":{
+       "size":32999,
+       "MD5":"934b2d91c7c5be4a49577c9e6b40e8da",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
+       }
+       },
+       {
+       "id":"org.ow2.asm:asm-all:5.2",
+       "name":"Mojang(ASM)",
+       "type":"Library",
+       "artifact":{
+       "size":247787,
+       "MD5":"f5ad16c7f0338b541978b0430d51dc83",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/asm-all-5.2.jar"
+       }
+       },
+       {
+       "id":"jline:jline:2.13",
+       "name":"Mojang(jline)",
+       "type":"Library",
+       "artifact":{
+       "size":248566,
+       "MD5":"f251ba666cccb260ff7215b2cbeee8d4",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jline-2.13.jar"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+       "name":"MinecraftForge(scala-library)",
+       "type":"Library",
+       "artifact":{
+       "size":1474672,
+       "MD5":"379c15c4f724421c6d5d7aecedaf87a6",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-library-2.11.1.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+       "name":"MinecraftForge(scala-compiler)",
+       "type":"Library",
+       "artifact":{
+       "size":3076920,
+       "MD5":"7d89e952f2d5c74577310cd2c28e3f20",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-compiler-2.11.1.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+       "name":"MinecraftForge(scala-actors-migration)",
+       "type":"Library",
+       "artifact":{
+       "size":21324,
+       "MD5":"04e3428b2600ace33c7ae2bf1f6c0a4c",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+       "name":"MinecraftForge(scala-continuations-library)",
+       "type":"Library",
+       "artifact":{
+       "size":7956,
+       "MD5":"ed9b1d27aba8ac4090a3749c4dfc895a",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+       "name":"MinecraftForge(scala-continuations-plugin)",
+       "type":"Library",
+       "artifact":{
+       "size":46140,
+       "MD5":"a8232db22a72a981de6b1399eb86dff7",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+       "name":"MinecraftForge(scala-parser-combinators)",
+       "type":"Library",
+       "artifact":{
+       "size":85568,
+       "MD5":"2e50a7df17680daadacca69f07f8a16d",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+       "name":"MinecraftForge(scala-reflect)",
+       "type":"Library",
+       "artifact":{
+       "size":1070312,
+       "MD5":"84e5dc81c10e2bd74c579c9d0332fdd9",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-reflect-2.11.1.jar.pack.xz"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-swing_2.11:1.0.1",
+       "name":"MinecraftForge(scala-swing)",
+       "type":"Library",
+       "artifact":{
+       "size":736795,
+       "MD5":"1d360289e697022a3f57abaad344b28f",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-swing_2.11-1.0.1.jar"
+       }
+       },
+       {
+       "id":"org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+       "name":"MinecraftForge(scala-xml)",
+       "type":"Library",
+       "artifact":{
+       "size":217812,
+       "MD5":"cc891b094a4c32dedc56bfefe9b072ff",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+       }
+       },
+       {
+       "id":"com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+       "name":"MinecraftForge(akka-actor)",
+       "type":"Library",
+       "artifact":{
+       "size":746612,
+       "MD5":"25cb22c3078e9fb3f7a861c912924862",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/akka-actor_2.11-2.3.3.jar.pack.xz"
+       }
+       },
+       {
+       "id":"com.typesafe:config:1.2.1@jar.pack.xz",
+       "name":"MinecraftForge(typesafe-config)",
+       "type":"Library",
+       "artifact":{
+       "size":56636,
+       "MD5":"10ec4ccabc4e68aac9cf87165ead5d7d",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/config-1.2.1.jar.pack.xz"
+       }
+       },
+       {
+       "id":"lzma:lzma:0.0.1",
+       "name":"Mojang(LZMA)",
+       "type":"Library",
+       "artifact":{
+       "size":5762,
+       "MD5":"a3e3c3186e41c4a1a3027ba2bb23cdc6",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/lzma-0.0.1.jar"
+       }
+       },
+       {
+       "id":"net.sf.trove4j:trove4j:3.0.3",
+       "name":"Trove4J",
+       "type":"Library",
+       "artifact":{
+       "size":2523218,
+       "MD5":"8fc4d4e0129244f9fd39650c5f30feb2",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
+       }
+       },
+       {
+       "id":"java3d:vecmath:1.5.2",
+       "name":"Vecmath",
+       "type":"Library",
+       "artifact":{
+       "size":318956,
+       "MD5":"e5d2b7f46c4800a32f62ce75676a5710",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
+       }
+       },
+       {
+       "id":"net.sf.jopt-simple:jopt-simple:5.0.3",
+       "name":"Jopt-simple",
+       "type":"Library",
+       "artifact":{
+       "size":78175,
+       "MD5":"0a5ec84e23df9d7cfb4063bc55f2744c",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jopt-simple-5.0.3.jar"
+       }
+       },
+       {
+       "id":"org.apache.maven:maven-artifact:3.5.3",
+       "name":"maven-artifact",
+       "type":"Library",
+       "artifact":{
+       "size":54961,
+       "MD5":"7741ebf29690ee7d9dde9cf4376347fc",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
+       }
+       },
+       {
+       "id":"net.minecraftforge:MercuriusUpdater:1.12.2",
+       "name":"MercuriusUpdater",
+       "type":"Library",
+       "artifact":{
+       "size":15098,
+       "MD5":"6eb9e61097bee3103a2fdc42746b76a4",
+       "url":"http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
+       }
+       }
+       ]
+       },
+       {
+       "id":"com.ChickenASM:ChickenASM:1.12-1.0.2.7",
+       "name":"ChickenASM",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/1.12.2/ChickenASM-1.12-1.0.2.7.jar?raw=true"
+       }},
+       {
+       "id":"com.CD4017BE:CD4017Blib:1.12.2-6.3.0",
+       "name":"CD4017BE_lib",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CD4017BE_lib-1.12.2-6.3.0.jar?raw=true"
+       }},
+       
+       {
+       "id":"com.CTM-MC:CTM-MC:1.12.2-0.3.3.22",
+       "name":"CTM-MC",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CTM-MC1.12.2-0.3.3.22.jar?raw=true"
+       }},
+       {
+       
+       "id":"com.Baubles:Baubles:1.12-1.5.2",
+       "name":"Baubles",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Baubles-1.12-1.5.2.jar?raw=true"
+       }
+       },
+       {
+       
+       "id":"com.CarryOn:MC1.12.2:v1.12.1.jar",
+       "name":"CarryOn",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CarryOn+MC1.12.2+v1.12.1.jar?raw=true"
+       }
+       },
+       {
+       
+       "id":"com.CoFHCore:1.12.2-4.6.2.25:universal.jar",
+       "name":"CoFHCore",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CoFHCore-1.12.2-4.6.2.25-universal.jar?raw=true"
+       }
+       },
+       {
+       
+       "id":"com.CoFHWorld:1.12.2-1.3.0.6:universal.jar",
+       "name":"CoFHWorld",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CoFHWorld-1.12.2-1.3.0.6-universal.jar?raw=true"
+       }
+       },
+       {
+       
+       "id":"com.CodeChickenLib:1.12.2-3.2.2.353:universal.jar",
+       "name":"CodeChickenLib",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CodeChickenLib-1.12.2-3.2.2.353-universal.jar?raw=true"
+       }
+       },
+       {
+       
+       "id":"com.Computronics:1.12.2:1.6.6.jar",
+       "name":"Computronics",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Computronics-1.12.2-1.6.6.jar?raw=true"
+       }
+       },
+       {
+       "id":"com.CookingForBlockheads:1.12.2:6.4.69.jar",
+       "name":"CookingForBlockheads_4jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CookingForBlockheads_1.12.2-6.4.69.jar?raw=true"
+       }},{
+       "id":"com.CustomMo:Spawner:3.11.4.jar.zip",
+       "name":"CustomMobSpawner4jarzip",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CustomMobSpawner-3.11.4.jar.zip?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.DrZharksMoCreaturesMod:12:0.5.jar.zip",
+       "name":"DrZharksMoCreaturesModjarzip",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/DrZharks%20MoCreatures%20Mod-12.0.5.jar.zip"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:BiblioCraft:[v2.4.5][MC1.12.2].jar",
+       "name":"ElijahWilliamsBiblioCraft[v4][MC]jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20BiblioCraft%5Bv2.4.5%5D%5BMC1.12.2%5D.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:BiomesOPlenty:1.12.2-7.0.1.2419-universal.jar",
+       "name":"ElijahWilliamsBiomesOPlenty4universaljar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20BiomesOPlenty-1.12.2-7.0.1.2419-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:Cavern:1.12.2-v2.1.9.jar",
+       "name":"ElijahWilliamsCavern_vjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Cavern_1.12.2-v2.1.9.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:Chisel:MC1.12.2-0.2.1.35.jar",
+       "name":"ElijahWilliamsChiselMCjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Chisel-MC1.12.2-0.2.1.35.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijaWilliams:CraftableHorseArmour:1.3.0-1.12.jar",
+       "name":"ElijahWilliamsCraftableHorseArmourjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20CraftableHorseArmour-1.3.0-1.12.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:Galacticraft:Planets:1.12.2-4.0.2.210.jar",
+       "name":"ElijahWilliamsGalacticraftPlanets4jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Galacticraft-Planets-1.12.2-4.0.2.210.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:GalacticraftCore:1.12.2-4.0.2.210.jar",
+       "name":"ElijahWilliamsGalacticraftCore4jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20GalacticraftCore-1.12.2-4.0.2.210.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:Horse-Carts-Mod:1.12.2.jar",
+       "name":"ElijahWilliamsHorseCartsModjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20Horse-Carts-Mod-1.12.2.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijaWilliams:ImmersiveEngineering:0.12-89.jar",
+       "name":"ElijahWilliamsImmersiveEngineeringjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20ImmersiveEngineering-0.12-89.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:IndustrialWires:1.7-36.jar",
+       "name":"ElijahWilliamsIndustrialWiresjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20IndustrialWires-1.7-36.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:OpenGlider:1.12.1-1.1.0.jar",
+       "name":"ElijahWilliamsOpenGliderjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20OpenGlider-1.12.1-1.1.0.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:RoguelikeDungeons:1.12.2-1.8.0.jar",
+       "name":"ElijahWilliamsRoguelikeDungeonsjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20RoguelikeDungeons-1.12.2-1.8.0.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:SimplyJetpacks2:1.12.2-2.2.11.64.jar",
+       "name":"ElijahWilliamsSimplyJetpacks4jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20SimplyJetpacks2-1.12.2-2.2.11.64.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams-backpacks:1.12.2-:3.5.5.jar",
+       "name":"ElijahWilliamsbackpacksjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20backpacks+1.12.2+-+3.5.5.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:conarm:1.12.2-1.2.3.jar",
+       "name":"ElijahWilliamsconarmjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20conarm-1.12.2-1.2.3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliam:sngineers:doors-1.12.2-0.8.0.jar",
+       "name":"ElijahWilliamsengineers_doorsjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20engineers_doors-1.12.2-0.8.0.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:immersivepetroleum:1.12.2-1.1.9.jar",
+       "name":"ElijahWilliamsimmersivepetroleumjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20immersivepetroleum-1.12.2-1.1.9.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:immersivetech:1.12-1.3.10.jar",
+       "name":"ElijahWilliamsimmersivetechjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20immersivetech-1.12-1.3.10.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:industrialcraft:2-2.8.111-ex112.jar",
+       "name":"ElijahWilliamsindustrialcraftexjar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20industrialcraft-2-2.8.111-ex112.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:ironchest:1.12.2-7.0.59.842.jar",
+       "name":"ElijahWilliamsironchest4jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20ironchest-1.12.2-7.0.59.842.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },{
+       "id":"com.ElijahWilliams:refinedstorage:1.6.14.jar",
+       "name":"ElijahWilliams-refinedstorage",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Elijah%20Williams%20-%20refinedstorage-1.6.14.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+       {
+       "id":"EnderStorage:1.12.2:2.4.2.126-universal.jar",
+       "name":"EnderStorage",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/EnderStorage-1.12.2-2.4.2.126-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"FTBLib:5.4:1.94.jar",
+       "name":"FTBLib",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/FTBLib-5.4.1.94.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+       
+            {
+       "id":"FTB:Utilities:.4.0.92.jar",
+       "name":"FTBUtilities",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/FTBUtilities-5.4.0.92.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                {
+       "id":"ForgeMultipart:1.12.2:2.6.1.81-universal.jar",
+       "name":"ForgeMultipart",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ForgeMultipart-1.12.2-2.6.1.81-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                    {
+       "id":"Forgelin:1.8.2:jar",
+       "name":"Forgelin",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Forgelin-1.8.2.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                        {
+       "id":"InductiveLogistics:1.12.2:1.3.3.jar",
+       "name":"InductiveLogistics",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/InductiveLogistics-1.12.2-1.3.3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                            {
+       "id":"InventoryTweaks:1.64:dev.146.jar",
+       "name":"InventoryTweaks",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/InventoryTweaks-1.64+dev.146.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                            {
+       "id":"Mantle:1.12:1.3.3.49.jar",
+       "name": "Mantle",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Mantle-1.12-1.3.3.49.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                            {
+       "id":"Mekanism:1.12.2:9.6.8.366.jar",
+       "name":"Mekanism",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Mekanism-1.12.2-9.6.8.366.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                            {
+       "id":"MekanismGenerators:1.12.2:9.6.8.366.jar",
+       "name":"MekanismGenerators",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MekanismGenerators-1.12.2-9.6.8.366.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                            {
+       "id":"MekanismTools:1.12.2:9.6.8.366.jar",
+       "name":"MekanismTools",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MekanismTools-1.12.2-9.6.8.366.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                            {
+       "id":"MicdoodleCore:1.12.2:4.0.2.210.jar",
+       "name":"MicdoodleCore",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MicdoodleCore-1.12.2-4.0.2.210.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                          {
+       "id":"ModularPowersuits:1.12.2:1.0.36.jar",
+       "name":"ModularPowersuits",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ModularPowersuits-1.12.2-1.0.36.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                              {
+       "id":"MorePlayerModels:1.12.2:(18jan18).jar",
+       "name":"MorePlayerModels",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MorePlayerModels_1.12.2(18jan18).jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                              {
+       "id":"MrTJPCore:1.12.2-2.1.3.35:universal.jar",
+       "name":"MrTJPCore",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MrTJPCore-1.12.2-2.1.3.35-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                              {
+       "id":"NuclearCraft:2.14c:1.12.2.jar",
+       "name":"NuclearCraft",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/NuclearCraft-2.14c-1.12.2.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                              {
+       "id":"Numina:1.12.2:1.0.36.jar",
+       "name":"Numina",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Numina-1.12.2-1.0.36.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                              {
+       "id":"OpenComputers:MC1.12.2:1.7.4.153.jar",
+       "name":"OpenComputers",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OpenComputers-MC1.12.2-1.7.4.153.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                                  {
+       "id":"OpenFM:1.12.2:0.1.0.19.jar",
+       "name":"OpenFM",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OpenFM-1.12.2-0.1.0.19.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                                  {
+       "id":"OptiFine:1.12.2:HD_U_E3.jar",
+       "name":"OptiFine",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OptiFine_1.12.2_HD_U_E3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                                  {
+       "id":"Pam's:HarvestCraft:1.12.2zb.jar",
+       "name":"Pam's+HarvestCraft",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Pam's+HarvestCraft+1.12.2zb.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                                  {
+       "id":"ProjectRed:1.12.2-4.9.1.92:Base.jar",
+       "name":"ProjectRedBase",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-Base.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                                  {
+       "id":"ProjectRed:1.12.2-4.9.1.92:compat.jar",
+       "name":"ProjectRedcopat",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-compat.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },                           {
+       "id":"ProjectRed:1.12.2-4.9.1.92:lighting.jar",
+       "name":"ProjectRedLighting",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-lighting.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                                  {
+       "id":"ProjectRed:1.12.2-4.9.1.92:mechanical.jar",
+       "name":"ProjectRedmechanical",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-mechanical.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
                  {
-    "id":"Forgelin:1.8.2:jar",
-    "name":"Forgelin",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Forgelin-1.8.2.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                     {
-    "id":"InductiveLogistics:1.12.2:1.3.3.jar",
-    "name":"InductiveLogistics",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/InductiveLogistics-1.12.2-1.3.3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                         {
-    "id":"InventoryTweaks:1.64:dev.146.jar",
-    "name":"InventoryTweaks",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/InventoryTweaks-1.64+dev.146.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                         {
-    "id":"Mantle:1.12:1.3.3.49.jar",
-    "name": "Mantle",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Mantle-1.12-1.3.3.49.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                         {
-    "id":"Mekanism:1.12.2:9.6.8.366.jar",
-    "name":"Mekanism",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Mekanism-1.12.2-9.6.8.366.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                         {
-    "id":"MekanismGenerators:1.12.2:9.6.8.366.jar",
-    "name":"MekanismGenerators",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MekanismGenerators-1.12.2-9.6.8.366.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                         {
-    "id":"MekanismTools:1.12.2:9.6.8.366.jar",
-    "name":"MekanismTools",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MekanismTools-1.12.2-9.6.8.366.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                         {
-    "id":"MicdoodleCore:1.12.2:4.0.2.210.jar",
-    "name":"MicdoodleCore",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MicdoodleCore-1.12.2-4.0.2.210.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                       {
-    "id":"ModularPowersuits:1.12.2:1.0.36.jar",
-    "name":"ModularPowersuits",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ModularPowersuits-1.12.2-1.0.36.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                           {
-    "id":"MorePlayerModels:1.12.2:(18jan18).jar",
-    "name":"MorePlayerModels",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MorePlayerModels_1.12.2(18jan18).jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                           {
-    "id":"MrTJPCore:1.12.2-2.1.3.35:universal.jar",
-    "name":"MrTJPCore",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MrTJPCore-1.12.2-2.1.3.35-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                           {
-    "id":"NuclearCraft:2.14c:1.12.2.jar",
-    "name":"NuclearCraft",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/NuclearCraft-2.14c-1.12.2.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                           {
-    "id":"Numina:1.12.2:1.0.36.jar",
-    "name":"Numina",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Numina-1.12.2-1.0.36.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                           {
-    "id":"OpenComputers:MC1.12.2:1.7.4.153.jar",
-    "name":"OpenComputers",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OpenComputers-MC1.12.2-1.7.4.153.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                               {
-    "id":"OpenFM:1.12.2:0.1.0.19.jar",
-    "name":"OpenFM",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OpenFM-1.12.2-0.1.0.19.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                               {
-    "id":"OptiFine:1.12.2:HD_U_E3.jar",
-    "name":"OptiFine",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OptiFine_1.12.2_HD_U_E3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                               {
-    "id":"Pam's:HarvestCraft:1.12.2zb.jar",
-    "name":"Pam's+HarvestCraft",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Pam's+HarvestCraft+1.12.2zb.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                               {
-    "id":"ProjectRed:1.12.2-4.9.1.92:Base.jar",
-    "name":"ProjectRedBase",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-Base.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                               {
-    "id":"ProjectRed:1.12.2-4.9.1.92:compat.jar",
-    "name":"ProjectRedcopat",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-compat.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },                           {
-    "id":"ProjectRed:1.12.2-4.9.1.92:lighting.jar",
-    "name":"ProjectRedLighting",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-lighting.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-                               {
-    "id":"ProjectRed:1.12.2-4.9.1.92:mechanical.jar",
-    "name":"ProjectRedmechanical",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-mechanical.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
+       "id":"ProjectRed:1.12.2-4.9.1.92:world.jar",
+       "name":"ProjectRedWorld",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-world.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                 {
+       "id": "RedstoneFlux:1.12-2.1.0.6:universal.jar",
+       "name":"ProjectRedFlux",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/RedstoneFlux-1.12-2.1.0.6-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                 {
+       "id":"TConstruct:1.12.2:2.12.0.135.jar",
+       "name":"TConstruct",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/TConstruct-1.12.2-2.12.0.135.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },          {
+       "id":"ThermalExpansion:1.12.2-5.5.3.41:universal.jar",
+       "name":"ThermalExpansion",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalExpansion-1.12.2-5.5.3.41-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },          {
+       "id":"ThermalFoundation:1.12.2-2.6.2.26:universal.jar",
+       "name":"ProjectRedmechanical",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalFoundation-1.12.2-2.6.2.26-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },   {
+       "id":"appliedenergistics2:rv6:stable-6.jar",
+       "name":"appliedenergistics2-rv6-stable-6.jar",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/appliedenergistics2-rv6-stable-6.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },   {
+       "id":"cfm:6.2.0:mc1.12.2.jar",
+       "name":"cfm",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/cfm-6.2.0-mc1.12.2.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+         {
+       "id":"gravestone:1.10.2:jar",
+       "name":"gravestones",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/gravestone-1.10.2.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"hooked:1.0.3:jar",
+       "name":"hooked",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/hooked-1.0.3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"jehc:1.12.2:1.6.3",
+       "name":"jehc",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jehc-1.12.2-1.6.3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"jei:1.12.2:4.15.0.268.jar",
+       "name":"jei",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jei_1.12.2-4.15.0.268.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"journeymap:1.12.2:5.5.4.jar",
+       "name":"journeymap",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/journeymap-1.12.2-5.5.4.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"librarianlib:1.12.2:4.15.jar",
+       "name":"librarianlib",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/librarianlib-1.12.2-4.15.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"malisiscore:1.12.2:6.5.1.jar",
+       "name":"malisicore",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/malisiscore-1.12.2-6.5.1.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"malisisdoors:1.12.2:7.3.0.jar",
+       "name":"malisidoors",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/malisisdoors-1.12.2-7.3.0.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"mcjtylib:1.12:3.1.1.jar",
+       "name":"mcjtylib",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/mcjtylib-1.12-3.1.1.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"mp3spi:1.9.5:1.jar",
+       "name":"mp3sp",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/mp3spi-1.9.5-1.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+        {
+       "id":"railcraft:12.0:0.jar",
+       "name":"railcraft",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/railcraft-12.0.0.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+          {
+       "id":"rftools:1.12:7.61.jar",
+       "name":"rftools",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftools-1.12-7.61.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+          {
+       "id":"rftoolsctrl:1.12:1.9.3.jar",
+       "name":"rftc",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftoolsctrl-1.12-1.9.3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
               {
-    "id":"ProjectRed:1.12.2-4.9.1.92:world.jar",
-    "name":"ProjectRedWorld",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-world.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
+       "id":"simplefluidtanks:1.12.2:1.7.1.1.jar",
+       "name":"simplefluidtanks",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftoolsctrl-1.12-1.9.3.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
               {
-    "id": "RedstoneFlux:1.12-2.1.0.6:universal.jar",
-    "name":"ProjectRedFlux",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/RedstoneFlux-1.12-2.1.0.6-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-              {
-    "id":"TConstruct:1.12.2:2.12.0.135.jar",
-    "name":"TConstruct",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/TConstruct-1.12.2-2.12.0.135.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },          {
-    "id":"ThermalExpansion:1.12.2-5.5.3.41:universal.jar",
-    "name":"ThermalExpansion",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalExpansion-1.12.2-5.5.3.41-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },          {
-    "id":"ThermalFoundation:1.12.2-2.6.2.26:universal.jar",
-    "name":"ProjectRedmechanical",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalFoundation-1.12.2-2.6.2.26-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },   {
-    "id":"appliedenergistics2:rv6:stable-6.jar",
-    "name":"appliedenergistics2-rv6-stable-6.jar",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/appliedenergistics2-rv6-stable-6.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },   {
-    "id":"cfm:6.2.0:mc1.12.2.jar",
-    "name":"cfm",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/cfm-6.2.0-mc1.12.2.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-      {
-    "id":"gravestone:1.10.2:jar",
-    "name":"gravestones",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/gravestone-1.10.2.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"hooked:1.0.3:jar",
-    "name":"hooked",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/hooked-1.0.3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"jehc:1.12.2:1.6.3",
-    "name":"jehc",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jehc-1.12.2-1.6.3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"jei:1.12.2:4.15.0.268.jar",
-    "name":"jei",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jei_1.12.2-4.15.0.268.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"journeymap:1.12.2:5.5.4.jar",
-    "name":"journeymap",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/journeymap-1.12.2-5.5.4.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"librarianlib:1.12.2:4.15.jar",
-    "name":"librarianlib",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/librarianlib-1.12.2-4.15.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"malisiscore:1.12.2:6.5.1.jar",
-    "name":"malisicore",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/malisiscore-1.12.2-6.5.1.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"malisisdoors:1.12.2:7.3.0.jar",
-    "name":"malisidoors",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/malisisdoors-1.12.2-7.3.0.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"mcjtylib:1.12:3.1.1.jar",
-    "name":"mcjtylib",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/mcjtylib-1.12-3.1.1.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"mp3spi:1.9.5:1.jar",
-    "name":"mp3sp",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/mp3spi-1.9.5-1.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-     {
-    "id":"railcraft:12.0:0.jar",
-    "name":"railcraft",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/railcraft-12.0.0.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-       {
-    "id":"rftools:1.12:7.61.jar",
-    "name":"rftools",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftools-1.12-7.61.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-       {
-    "id":"rftoolsctrl:1.12:1.9.3.jar",
-    "name":"rftc",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftoolsctrl-1.12-1.9.3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-           {
-    "id":"simplefluidtanks:1.12.2:1.7.1.1.jar",
-    "name":"simplefluidtanks",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/rftoolsctrl-1.12-1.9.3.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-           {
-    "id":"twilightforest:1.12.2:3.8.689-universal.jar",
-    "name":"twilight",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/twilightforest-1.12.2-3.8.689-universal.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
+       "id":"twilightforest:1.12.2:3.8.689-universal.jar",
+       "name":"twilight",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/twilightforest-1.12.2-3.8.689-universal.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
 
-           {
-    "id":"vr:thing:10.1",
-    "name":"vr",
-    "type":"ForgeMod",
-    "required" : "false",
-    "artifact":{
-    "url":"https://owncloud.techjargaming.com/index.php/s/RsnyWmdN8OeJEI4/download?path=%2F&files=VivecraftForgeExtensions-1.12.2-0.2.4.12.jar"
-    
-    
-    
-    
-    
-    }
-    },
-               {
-    "id":"controler:thing:10.1",
-    "name":"controler",
-    "type":"ForgeMod",
-    "required" : "false",
-    "artifact":{
-    "url":"https://www.dropbox.com/s/yuqs2naj4y3lba5/controllable-0.3.1-mc1.12.2.jar?dl=1"
-    
-    
-    
-    
-    
-    }
-    },
-           {
-    "id":"vorbisspi:1.0.3:1.jar",
-    "name":"vorfis",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/vorbisspi-1.0.3-1.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-               {
-    "id":"vehiclemod:1.0.3:1.jar",
-    "name":"vehiclemod",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://www.dropbox.com/s/po9k09rmmvx9hov/vehicle-0.41.0-mc1.12.2.jar?dl=1"
-    
-    
-    
-    
-    
-    }
-    },
-               {
-    "id":"Obfuscate:de:1.2",
-    "name":"Obfuscate",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/vorbisspi-1.0.3-1.jar?raw=true"
-    
-    
-    
-    
-    
-    }
-    },
-               {
-    "id":"laptop:1.0.3:1.jar",
-    "name":"laptop",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://www.dropbox.com/s/8ykqctxt5bv2kyx/cdm-0.4.1-mc1.12.2.jar?dl=1"
-    
-    
-    
-    
-    
-    }
-    },
-    
+              {
+       "id":"vr:thing:10.1",
+       "name":"vr",
+       "type":"ForgeMod",
+       "required" : "false",
+       "artifact":{
+       "url":"https://owncloud.techjargaming.com/index.php/s/RsnyWmdN8OeJEI4/download?path=%2F&files=VivecraftForgeExtensions-1.12.2-0.2.4.12.jar"
+       
+       
+       
+       
+       
+       }
+       },
                   {
-    "id":"fureniksroad:1.0.3:1.jar",
-    "name":"roads",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://www.curseforge.com/minecraft/mc-mods/furenikusroads/download/2701842/file"
-    
-    
-    
-    
-    
-    }
-    },
-    
+       "id":"controler:thing:10.1",
+       "name":"controler",
+       "type":"ForgeMod",
+       "required" : "false",
+       "artifact":{
+       "url":"https://www.dropbox.com/s/yuqs2naj4y3lba5/controllable-0.3.1-mc1.12.2.jar?dl=1"
+       
+       
+       
+       
+       
+       }
+       },
+              {
+       "id":"vorbisspi:1.0.3:1.jar",
+       "name":"vorfis",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/vorbisspi-1.0.3-1.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
                   {
-    "id":"NeverEnoughCurrency:1.0.3:1.jar",
-    "name":"Never Enough Currency",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://www.curseforge.com/minecraft/mc-mods/never-enough-currency/download/2508532/file"
-    
-    
-    
-    
-    
-    }
-    },
+       "id":"vehiclemod:1.0.3:1.jar",
+       "name":"vehiclemod",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.dropbox.com/s/po9k09rmmvx9hov/vehicle-0.41.0-mc1.12.2.jar?dl=1"
+       
+       
+       
+       
+       
+       }
+       },
                   {
-    "id":"Elevators:1.0.3:1.jar",
-    "name":"lElevators",
-    "type":"ForgeMod",
-    "artifact":{
-    "url":"https://www.curseforge.com/minecraft/mc-mods/thuts-elevators/download/2712805/file"
-    
-    
-    
-    
-    
-    }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ]}]
-    }
-    
-    
+       "id":"Obfuscate:de:1.2",
+       "name":"Obfuscate",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/vorbisspi-1.0.3-1.jar?raw=true"
+       
+       
+       
+       
+       
+       }
+       },
+                  {
+       "id":"laptop:1.0.3:1.jar",
+       "name":"laptop",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.dropbox.com/s/8ykqctxt5bv2kyx/cdm-0.4.1-mc1.12.2.jar?dl=1"
+       
+       
+       
+       
+       
+       }
+       },
+       
+                     {
+       "id":"fureniksroad:1.0.3:1.jar",
+       "name":"roads",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.curseforge.com/minecraft/mc-mods/furenikusroads/download/2701842/file"
+       
+       
+       
+       
+       
+       }
+       },
+       
+                     {
+       "id":"NeverEnoughCurrency:1.0.3:1.jar",
+       "name":"Never Enough Currency",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.curseforge.com/minecraft/mc-mods/never-enough-currency/download/2508532/file"
+       
+       
+       
+       
+       
+       }
+       },
+                     {
+       "id":"Elevators:1.0.3:1.jar",
+       "name":"lElevators",
+       "type":"ForgeMod",
+       "artifact":{
+       "url":"https://www.curseforge.com/minecraft/mc-mods/thuts-elevators/download/2712805/file"
+       
+       
+       
+       
+       
+       }
+       }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       ]}]
+       }
+       
+       
+   
