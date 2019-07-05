@@ -237,7 +237,33 @@
                             }
                         }
                     ]
-                }
+                }, 
+                {
+"id":"com.MrTJPCore:1.12.2-2.1.3.35:bigmod",
+"name":"MrTJPCore",
+"type":"ForgeMod",
+"artifact":{
+"size": 2533347,
+"MD5": "3b5f554bb36ef1250946540eae745780",
+"url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/MrTJPCore-1.12.2-2.1.3.35-universal.jar?raw=true"
+
+}
+},
+{
+"id":"com.NuclearCraft:2.14c:assmod1",
+"name":"NuclearCraft",
+"type":"ForgeMod",
+"artifact":{
+"size": 2533347,
+"MD5": "2fa1f9b7dda4581a47090254f5c06fe9",
+"url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/NuclearCraft-2.14c-1.12.2.jar?raw=true"
+
+
+
+
+
+}
+}
 
 
 
