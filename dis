@@ -16,7 +16,7 @@
             "description": "Main MetroCraft server. Connect to enter the server.",
             "icon": "https://seeklogo.com/images/M/m-design-logo-09A5D82F03-seeklogo.com.png",
             "version": "3.8.0",
-            "address": "73.153.28.229",
+            "address": "furryemporium.mine.bz",
             "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "594507123250167818",
