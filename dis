@@ -600,7 +600,7 @@
 }
 },
 {
-"id":"EnderStorage:1.12.2:mod25",
+"id":"com.EnderStorage:1.12.2:mod25",
 "name":"EnderStorage",
 "type":"ForgeMod",
 "artifact":{
@@ -613,7 +613,7 @@
 }
 },
 {
-"id":"FTBLib:5.4:mod26",
+"id":"com.FTBLib:5.4:mod26",
 "name":"FTBLib",
 "type":"ForgeMod",
 "artifact":{
@@ -627,7 +627,7 @@
 },
 
 {
-"id":"FTB:Utilities:mod27",
+"id":"com.FTB:Utilities:mod27",
 "name":"FTBUtilities",
 "type":"ForgeMod",
 "artifact":{
@@ -640,7 +640,7 @@
 }
 },
 {
-"id":"ForgeMultipart:1.12.2:mod28",
+"id":"com.ForgeMultipart:1.12.2:mod28",
 "name":"ForgeMultipart",
 "type":"ForgeMod",
 "artifact":{
@@ -653,7 +653,7 @@
 }
 },
 {
-"id":"Forgelin:1.8.2:mod29",
+"id":"com.Forgelin:1.8.2:mod29",
 "name":"Forgelin",
 "type":"ForgeMod",
 "artifact":{
@@ -666,7 +666,7 @@
 }
 },
 {
-"id":"InductiveLogistics:1.12.2:stillmoding",
+"id":"com.InductiveLogistics:1.12.2:stillmoding",
 "name":"InductiveLogistics",
 "type":"ForgeMod",
 "artifact":{
@@ -679,7 +679,7 @@
 }
 },
 {
-"id":"InventoryTweaks:1.64:iammoding",
+"id":"com.InventoryTweaks:1.64:iammoding",
 "name":"InventoryTweaks",
 "type":"ForgeMod",
 "required":{
@@ -696,7 +696,7 @@
 }
 },
 {
-"id":"Mantle:1.12:themod",
+"id":"com.Mantle:1.12:themod",
 "name":"Mantle",
 "type":"ForgeMod",
 "artifact":{
@@ -709,7 +709,7 @@
 }
 },
 {
-"id":"Mekanism:1.12.2:amod",
+"id":"com.Mekanism:1.12.2:amod",
 "name":"Mekanism",
 "type":"ForgeMod",
 "artifact":{
@@ -722,7 +722,7 @@
 }
 },
 {
-"id":"Mekanism:Generators:coolmod",
+"id":"com.Mekanism:Generators:coolmod",
 "name":"MekanismGenerators",
 "type":"ForgeMod",
 "artifact":{
@@ -735,7 +735,7 @@
 }
 },
 {
-"id":"MekanismTools:1.12.2:radmod",
+"id":"com.MekanismTools:1.12.2:radmod",
 "name":"MekanismTools",
 "type":"ForgeMod",
 "artifact":{
@@ -748,7 +748,7 @@
 }
 },
 {
-"id":"MicdoodleCore:1.12.2:fuckmod",
+"id":"com.MicdoodleCore:1.12.2:fuckmod",
 "name":"MicdoodleCore",
 "type":"ForgeMod",
 "artifact":{
@@ -761,7 +761,7 @@
 }
 },
 {
-"id":"ModularPowersuits:1.12.2:fuckingmod",
+"id":"com.ModularPowersuits:1.12.2:fuckingmod",
 "name":"ModularPowersuits",
 "type":"ForgeMod",
 "artifact":{
@@ -774,7 +774,7 @@
 }
 },
 {
-"id":"MorePlayerModels:1.12.2:dickmod",
+"id":"com.MorePlayerModels:1.12.2:dickmod",
 "name":"MorePlayerModels",
 "type":"ForgeMod",
 "artifact":{
@@ -787,7 +787,7 @@
 }
 },
 {
-"id":"MrTJPCore:1.12.2-2.1.3.35:bigmod",
+"id":"com.MrTJPCore:1.12.2-2.1.3.35:bigmod",
 "name":"MrTJPCore",
 "type":"ForgeMod",
 "artifact":{
@@ -800,7 +800,7 @@
 }
 },
 {
-"id":"NuclearCraft:2.14c:assmod1",
+"id":"com.NuclearCraft:2.14c:assmod1",
 "name":"NuclearCraft",
 "type":"ForgeMod",
 "artifact":{
@@ -813,7 +813,7 @@
 }
 },
 {
-"id":"Numina:1.12.2:assmod2",
+"id":"com.Numina:1.12.2:assmod2",
 "name":"Numina",
 "type":"ForgeMod",
 "artifact":{
@@ -826,7 +826,7 @@
 }
 },
 {
-"id":"OpenComputers:MC1.12.2:bichassmod",
+"id":"com.OpenComputers:MC1.12.2:bichassmod",
 "name":"OpenComputers",
 "type":"ForgeMod",
 "artifact":{
@@ -839,7 +839,7 @@
 }
 },
 {
-"id":"OpenFM:1.12.2:moddd1",
+"id":"com.OpenFM:1.12.2:moddd1",
 "name":"OpenFM",
 "type":"ForgeMod",
 "artifact":{
@@ -852,7 +852,7 @@
 }
 },
 {
-"id":"OptiFine:1.12.2:moddd2r",
+"id":"com.OptiFine:1.12.2:moddd2r",
 "name":"OptiFine",
 "type":"ForgeMod",
 "required":{
@@ -869,7 +869,7 @@
 }
 },
 {
-"id":"Pams:HarvestCraft:mod98",
+"id":"com.Pams:HarvestCraft:mod98",
 "name":"PamsHarvestCraft",
 "type":"ForgeMod",
 "artifact":{
@@ -882,7 +882,7 @@
 }
 },
 {
-"id":"ProjectRed:1.12.2-4.9.1.92:mod99",
+"id":"com.ProfeefjectRed:192:mod99",
 "name":"ProjectRedBase",
 "type":"ForgeMod",
 "artifact":{
@@ -895,7 +895,7 @@
 }
 },
 {
-"id":"ProjectRed:1.12.2-4.9.1.92:mod101",
+"id":"com.ProjfeffefeectRed:1.1trrt.9.1.92:mod101",
 "name":"ProjectRedcopat",
 "type":"ForgeMod",
 "artifact":{
@@ -907,7 +907,7 @@
 
 }
 },{
-"id":"ProjectRed:1.12.2-4.9.1.92:mod099",
+"id":"com.ProjefefectRed:1.rtrt9.1.92:mod099",
 "name":"ProjectRedLighting",
 "type":"ForgeMod",
 "artifact":{
@@ -920,7 +920,7 @@
 }
 },
 {
-"id":"ProjectRed:1.12.2-4.9.1.92:mod666",
+"id":"com.ProjectRed:1.12.2-4.9.1.92:mod666",
 "name":"ProjectRedmechanical",
 "type":"ForgeMod",
 "artifact":{
@@ -933,7 +933,7 @@
 }
 },
 {
-"id":"ProjectRed:fefe:modofanumber",
+"id":"com.ProjectRed:fefe:modofanumber",
 "name":"ProjectRedWorld",
 "type":"ForgeMod",
 "artifact":{
@@ -946,7 +946,7 @@
 }
 },
 {
-"id":"RedstoneFlux:1.12-2.1.0.6:mod888",
+"id":"com.RedstoneFlux:1.12-2.1.0.6:mod888",
 "name":"ProjectRedFlux",
 "type":"ForgeMod",
 "artifact":{
@@ -959,7 +959,7 @@
 }
 },
 {
-"id":"TConstruct:1.12.2:mod999",
+"id":"com.TConstruct:1.12.2:mod999",
 "name":"TConstruct",
 "type":"ForgeMod",
 "artifact":{
@@ -971,7 +971,7 @@
 
 }
 },{
-"id":"ThermalExpansion:1.12.2-5.5.3.41:mod9898",
+"id":"com.ThermalExpansion:1.12.2-5.5.3.41:mod9898",
 "name":"ThermalExpansion",
 "type":"ForgeMod",
 "artifact":{
@@ -983,7 +983,7 @@
 
 }
 },{
-"id":"ThermalFoundation:1.12.2-2.6.2.26:mod8989",
+"id":"com.ThermalFoundation:1.12.2-2.6.2.26:mod8989",
 "name":"ProjectRedmechanical",
 "type":"ForgeMod",
 "artifact":{
@@ -995,7 +995,7 @@
 
 }
 },{
-"id":"appliedenergistics2:rv6:thecow",
+"id":"com.appliedenergistics2:rv6:thecow",
 "name":"appliedenergistics2-rv6-stable-6.jar",
 "type":"ForgeMod",
 "artifact":{
@@ -1007,7 +1007,7 @@
 
 }
 },{
-"id":"cfm:6.2.0:jumped",
+"id":"com.cfm:6.2.0:jumped",
 "name":"cfm",
 "type":"ForgeMod",
 "artifact":{
@@ -1020,7 +1020,7 @@
 }
 },
 {
-"id":"gravestone:1.10.2:over",
+"id":"com.gravestone:1.10.2:over",
 "name":"gravestones",
 "type":"ForgeMod",
 "artifact":{
@@ -1033,7 +1033,7 @@
 }
 },
 {
-"id":"hooked:1.0.3:thebichassmod",
+"id":"com.hooked:1.0.3:thebichassmod",
 "name":"hooked",
 "type":"ForgeMod",
 "artifact":{
@@ -1046,7 +1046,7 @@
 }
 },
 {
-"id":"jehc:1.12.2:thenthecow",
+"id":"com.jehc:1.12.2:thenthecow",
 "name":"jehc",
 "type":"ForgeMod",
 "artifact":{
@@ -1059,7 +1059,7 @@
 }
 },
 {
-"id":"jei:1.12.2:fuckedyourmom",
+"id":"com.jei:1.12.2:fuckedyourmom",
 "name":"jei",
 "type":"ForgeMod",
 "artifact":{
@@ -1072,7 +1072,7 @@
 }
 },
 {
-"id":"journeymap:1.12.2:eiei",
+"id":"com.journeymap:1.12.2:eiei",
 "name":"journeymap",
 "type":"ForgeMod",
 "required":{
@@ -1089,7 +1089,7 @@
 }
 },
 {
-"id":"librarianlib:1.12.2:oooooo",
+"id":"com.librarianlib:1.ge12.2:oooooo",
 "name":"librarianlib",
 "type":"ForgeMod",
 "artifact":{
@@ -1102,7 +1102,7 @@
 }
 },
 {
-"id":"malisiscore:1.12.2:andon",
+"id":"com.malisiscore:1.12.2:andon",
 "name":"malisicore",
 "type":"ForgeMod",
 "artifact":{
@@ -1115,7 +1115,7 @@
 }
 },
 {
-"id":"malisisdoors:1.12.2:hisfarm",
+"id":"com.malisisdoors:1.12.2:hisfarm",
 "name":"malisidoors",
 "type":"ForgeMod",
 "artifact":{
@@ -1128,7 +1128,7 @@
 }
 },
 {
-"id":"mcjtylib:1.12:hehad",
+"id":"com.mcjtylib:1.12:hehad",
 "name":"mcjtylib",
 "type":"ForgeMod",
 "artifact":{
@@ -1141,7 +1141,7 @@
 }
 },
 {
-"id":"mp3spi:1.9.5:aelio",
+"id":"com.mp3spi:1.9.5:aelio",
 "name":"mp3sp",
 "type":"ForgeMod",
 "artifact":{
@@ -1154,7 +1154,7 @@
 }
 },
 {
-"id":"railcraft:12.0:0evf",
+"id":"com.railcraft:12.0:0evf",
 "name":"railcraft",
 "type":"ForgeMod",
 "artifact":{
@@ -1167,7 +1167,7 @@
 }
 },
 {
-"id":"rftools:1.12:2evf",
+"id":"com.rftools:1.12:2evf",
 "name":"rftools",
 "type":"ForgeMod",
 "artifact":{
@@ -1180,7 +1180,7 @@
 }
 },
 {
-"id":"rftoolsctrl:1.12:3evf",
+"id":"com.rftoolsctrl:1.12:3evf",
 "name":"rftc",
 "type":"ForgeMod",
 "artifact":{
@@ -1193,7 +1193,7 @@
 }
 },
 {
-"id":"simplefluidtanks:1.12.2:1imo",
+"id":"com.simplefluidtanks:1.12.2:1imo",
 "name":"simplefluidtanks",
 "type":"ForgeMod",
 "artifact":{
@@ -1206,7 +1206,7 @@
 }
 },
 {
-"id":"twilightforest:1.12.2:2eio",
+"id":"com.twilightforest:1.12.2:2eio",
 "name":"twilight",
 "type":"ForgeMod",
 "artifact":{
@@ -1220,7 +1220,7 @@
 },
 
 {
-"id":"vr:thing:3eio",
+"id":"com.vr:thing:3eio",
 "name":"vr",
 "type":"ForgeMod",
 "required":{
@@ -1237,7 +1237,7 @@
 }
 },
 {
-"id":"controler:thing:4eio",
+"id":"com.controler:thing:4eio",
 "name":"controler",
 "type":"ForgeMod",
 "required":{
@@ -1254,7 +1254,7 @@
 }
 },
 {
-"id":"vorbisspi:1.0.3:5eio",
+"id":"com.vorbisspi:1.0.3:5eio",
 "name":"vorfis",
 "type":"ForgeMod",
 "artifact":{
@@ -1267,7 +1267,7 @@
 }
 },
 {
-"id":"vehiclemod:1.0.3:6eio",
+"id":"com.vehiclemod:1.0.3:6eio",
 "name":"vehiclemod",
 "type":"ForgeMod",
 "artifact":{
@@ -1280,7 +1280,7 @@
 }
 },
 {
-"id":"Obfuscate:de:7eio",
+"id":"com.Obfuscate:dfse:7fseio",
 "name":"Obfuscate",
 "type":"ForgeMod",
 "artifact":{
@@ -1293,7 +1293,7 @@
 }
 },
 {
-"id":"laptop:1.0.3:8eio",
+"id":"com.laptop:1.fs0.3:8eio",
 "name":"laptop",
 "type":"ForgeMod",
 "artifact":{
@@ -1307,7 +1307,7 @@
 },
 
 {
-"id":"fureniksroad:1.0.3:9eio",
+"id":"com.fureniksroad:1.0.3:9eio",
 "name":"roads",
 "type":"ForgeMod",
 "artifact":{
@@ -1321,7 +1321,7 @@
 },
 
 {
-"id":"NeverEnoughCurrency:1.0.3:10eio",
+"id":"com.NeverEnoughCurrency:1.0.3:10eio",
 "name":"NeverEnoughCurrency",
 "type":"ForgeMod",
 "artifact":{
@@ -1334,7 +1334,7 @@
 }
 },
 {
-"id":"Elevators:1.0.3:11eio",
+"id":"com.Elevators:1.fs0.3:11eio",
 "name":"lElevators",
 "type":"ForgeMod",
 "artifact":{
@@ -1348,7 +1348,7 @@
 },
 
 {
-"id":"tsla:1.0.3:12eio",
+"id":"com.tslafs:1.0.3fs:1fs2eio",
 "name":"tesla",
 "type":"ForgeMod",
 "artifact":{
@@ -1362,7 +1362,7 @@
 },
 
 {
-"id":"ZeroCore:1.0.3:13eio",
+"id":"com.ZeroCfsore:1.0.3:13eio",
 "name":"ZeroCore",
 "type":"ForgeMod",
 "artifact":{
@@ -1376,7 +1376,7 @@
 },
 
 {
-"id":"ExtremeReactors:1212:14wieo",
+"id":"com.ExtremeReactors:1212:14wieo",
 "name":"ExtremeReactors",
 "type":"ForgeMod",
 "artifact":{
