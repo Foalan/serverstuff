@@ -244,7 +244,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f639c5737eca0fb35347fb91eb1e1672",
+"MD5": "f639c5737eca0fb35347fb91eb1e1672,
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Numina-1.12.2-1.0.36.jar?raw=true"
 
 
@@ -257,7 +257,9 @@
 "id":"com.OpenComputers:MC1.12.2:bichassmod",
 "name":"OpenComputers",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "5154cdcda16a81aea43b37b1876ee15b",
+"artifact":{
+"size": 2533347,
+"MD5": "ac352b19968090507355e76d9dd3f266",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OpenComputers-MC1.12.2-1.7.4.153.jar?raw=true"
 
 
@@ -270,7 +272,9 @@
 "id":"com.OpenFM:1.12.2:moddd1",
 "name":"OpenFM",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "db1654fe7accdae9ed261206ce376754",
+"artifact":{
+"size": 2533347,
+"MD5": "db1654fe7accdae9ed261206ce376754",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OpenFM-1.12.2-0.1.0.19.jar?raw=true"
 
 
@@ -287,7 +291,9 @@
 "value":false,
 "def":true
 },
-"artifact":{"size": 2533347,"MD5": "f639c5737eca0fb35347fb91eb1e1674",
+"artifact":{
+"size": 2533347,
+"MD5": "df134171cb3cb08bf27c5142181bc155",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/OptiFine_1.12.2_HD_U_E3.jar?raw=true"
 
 
@@ -302,7 +308,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f639c5737eca0fb35347fb91eb1e1673",
+"MD5": "c08e62d5708c316afdf526bdee8546ee",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Pam's+HarvestCraft+1.12.2zb.jar?raw=true"
 
 
@@ -317,7 +323,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f639c5737eca0fb35347fb91eb1e1671",
+"MD5": " fa7c9dea3ba175bc53b406d2d7b6ea41",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-Base.jar?raw=true"
 
 
@@ -332,7 +338,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f639c5737eca0fb35347fb91eb1e1682",
+"MD5": "908178ca4c51a06070ec65305fc3fdac",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-compat.jar?raw=true"
 
 
@@ -346,7 +352,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f739c5737eca0fb35347fb91eb1e1672",
+"MD5": "6f8db962c617c51a63d64f4b71e83383",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-lighting.jar?raw=true"
 
 
@@ -361,7 +367,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f839c5737eca0fb35347fb91eb1e1672",
+"MD5": "6bad330954ecde08954dc138d2eb9784",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-mechanical.jar?raw=true"
 
 
@@ -376,7 +382,7 @@
 "type":"ForgeMod",
 "artifact":{
 "size": 2533347,
-"MD5": "f939c5737eca0fb35347fb91eb1e1672",
+"MD5": "08da442126202923120f0f5890cdd0c8",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-world.jar?raw=true"
 
 
