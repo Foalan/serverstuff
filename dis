@@ -59,7 +59,7 @@
 "name":"CDs",
 "type":"ForgeMod",
 "artifact":{
-"size": 243959966,
+
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/CD4017BE_lib-1.12.2-6.3.0.jar?raw=true"
 }},
 
@@ -1188,6 +1188,7 @@
 "name":"ExtremeReactors",
 "type":"ForgeMod",
 "artifact":{
+"size": 198204380,
 "url":"https://www.curseforge.com/minecraft/mc-mods/extreme-reactors/download/2722271/file"
 
 
