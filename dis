@@ -1,5 +1,5 @@
 {
-"version":"1.2.2",
+"version":"1.0.1",
 "discord":{
 "clientId":"385581240906022916",
 "smallImageText":"MetroCraft",
@@ -15,7 +15,7 @@
 "name":"MetroCraftServer",
 "description":"MainMetroCraftserver.Connecttoentertheserver.",
 "icon":"https://seeklogo.com/images/M/m-design-logo-09A5D82F03-seeklogo.com.png",
-"version":"3.8.0",
+"version":"0.0.1",
 "address":"73.153.28.229",
 "minecraftVersion":"1.12.2",
 "discord":{
