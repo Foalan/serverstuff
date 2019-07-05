@@ -300,7 +300,9 @@
 "id":"com.Pams:HarvestCraft:mod98",
 "name":"PamsHarvestCraft",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5737eca0fb35347fb91eb1e1673",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5737eca0fb35347fb91eb1e1673",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/Pam's+HarvestCraft+1.12.2zb.jar?raw=true"
 
 
@@ -313,7 +315,9 @@
 "id":"com.ProfeefjectRed:192:mod99",
 "name":"ProjectRedBase",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5737eca0fb35347fb91eb1e1671",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5737eca0fb35347fb91eb1e1671",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-Base.jar?raw=true"
 
 
@@ -326,7 +330,9 @@
 "id":"com.ProjfeffefeectRed:1.1trrt.9.1.92:mod101",
 "name":"ProjectRedcopat",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5737eca0fb35347fb91eb1e1682",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5737eca0fb35347fb91eb1e1682",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-compat.jar?raw=true"
 
 
@@ -338,7 +344,9 @@
 "id":"com.ProjefefectRed:1.rtrt9.1.92:mod099",
 "name":"ProjectRedLighting",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f739c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f739c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-lighting.jar?raw=true"
 
 
@@ -351,7 +359,9 @@
 "id":"com.ProjectRed:1.12.2-4.9.1.92:mod666",
 "name":"ProjectRedmechanical",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f839c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f839c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-mechanical.jar?raw=true"
 
 
@@ -364,7 +374,9 @@
 "id":"com.ProjectRed:fefe:modofanumber",
 "name":"ProjectRedWorld",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f939c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f939c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ProjectRed-1.12.2-4.9.1.92-world.jar?raw=true"
 
 
@@ -376,7 +388,9 @@
 "id":"com.RedstoneFlux:1.12-2.1.0.6:mod888",
 "name":"ProjectRedFlux",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f192c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f192c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/RedstoneFlux-1.12-2.1.0.6-universal.jar?raw=true"
 
 
@@ -389,7 +403,9 @@
 "id":"com.TConstruct:1.12.2:mod999",
 "name":"TConstruct",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f432c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f432c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/TConstruct-1.12.2-2.12.0.135.jar?raw=true"
 
 
@@ -401,7 +417,9 @@
 "id":"com.ThermalExpansion:1.12.2-5.5.3.41:mod9898",
 "name":"ThermalExpansion",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f534c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f534c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalExpansion-1.12.2-5.5.3.41-universal.jar?raw=true"
 
 
@@ -413,7 +431,9 @@
 "id":"com.ThermalFoundation:1.12.2-2.6.2.26:mod8989",
 "name":"ProjectRedmechanical",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f777c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f777c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/ThermalFoundation-1.12.2-2.6.2.26-universal.jar?raw=true"
 
 
@@ -425,7 +445,9 @@
 "id":"com.appliedenergistics2:rv6:thecow",
 "name":"appliedenergistics2-rv6-stable-6.jar",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f666c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f666c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/appliedenergistics2-rv6-stable-6.jar?raw=true"
 
 
@@ -437,7 +459,9 @@
 "id":"com.cfm:6.2.0:jumped",
 "name":"cfm",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f999c5737eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f999c5737eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/cfm-6.2.0-mc1.12.2.jar?raw=true"
 
 
@@ -450,7 +474,9 @@
 "id":"com.gravestone:1.10.2:over",
 "name":"gravestones",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5747eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5747eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/gravestone-1.10.2.jar?raw=true"
 
 
@@ -463,7 +489,9 @@
 "id":"com.hooked:1.0.3:thebichassmod",
 "name":"hooked",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5767eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5767eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/hooked-1.0.3.jar?raw=true"
 
 
@@ -476,7 +504,9 @@
 "id":"com.jehc:1.12.2:thenthecow",
 "name":"jehc",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5717eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5717eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jehc-1.12.2-1.6.3.jar?raw=true"
 
 
@@ -489,12 +519,10 @@
 "id":"com.jei:1.12.2:fuckedyourmom",
 "name":"jei",
 "type":"ForgeMod",
-"artifact":{"size": 2533347,"MD5": "f639c5736eca0fb35347fb91eb1e1672",
+"artifact":{
+"size": 2533347,
+"MD5": "f639c5736eca0fb35347fb91eb1e1672",
 "url":"https://github.com/Foalan/serverstuff/blob/master/modsforpeople/jei_1.12.2-4.15.0.268.jar?raw=true"
-
-
-
-
 
 }
 },
