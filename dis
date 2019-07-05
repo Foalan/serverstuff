@@ -309,7 +309,7 @@
 },
 {
 
-"id":"com.Computronics:9",
+"id":"com.Computronics:9:2454",
 "name":"Computronics",
 "type":"ForgeMod",
 "artifact":{
@@ -317,7 +317,7 @@
 }
 },
 {
-"id":"com.CookingForBlockheads:mod1",
+"id":"com.CookingFor:Blockheads:mod1",
 "name":"CookingForBlockheads_4jar",
 "type":"ForgeMod",
 "artifact":{
@@ -335,7 +335,7 @@
 
 }
 },{
-"id":"com.DrZharksMoCreaturesMod:mod3",
+"id":"com.DrZharks:MoCreaturesMod:mod3",
 "name":"DrZharksMoCreaturesModjarzip",
 "type":"ForgeMod",
 "artifact":{
@@ -503,7 +503,7 @@
 
 }
 },{
-"id":"com.ElijahWilliams-backpacks:mod17",
+"id":"com.ElijahWilliams:backpacks:mod17",
 "name":"ElijahWilliamsbackpacksjar",
 "type":"ForgeMod",
 "artifact":{
@@ -722,7 +722,7 @@
 }
 },
 {
-"id":"MekanismGenerators:coolmod",
+"id":"Mekanism:Generators:coolmod",
 "name":"MekanismGenerators",
 "type":"ForgeMod",
 "artifact":{
@@ -933,7 +933,7 @@
 }
 },
 {
-"id":"ProjectRed:1.12.2-4.9.1.92:mod777",
+"id":"ProjectRed:fefe:modofanumber",
 "name":"ProjectRedWorld",
 "type":"ForgeMod",
 "artifact":{
